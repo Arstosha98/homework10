@@ -3,37 +3,32 @@ public class Main {
         task1();
         task2();
         task3();
-        task4();
-        task5();
-        task6();
-        task7();
     }
 
     public static void task1() {
         System.out.println("Задание 1");
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastname = "Ivanov";
+        String fullName = lastname + " " + firstName + " " + middleName;
+        System.out.println("ФИО сотрудника - " + fullName);
     }
 
     public static void task2() {
         System.out.println("Задание 2");
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastname = "Ivanov";
+        String fullName = lastname + " " + firstName + " " + middleName;
+        String upperFullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + upperFullName);
     }
 
     public static void task3() {
         System.out.println("Задание 3");
-    }
+        String fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника - " + fullName);
 
-    public static void task4() {
-        System.out.println("Задание 4");
-    }
-
-    public static void task5() {
-        System.out.println("Задание 5");
-    }
-
-    public static void task6() {
-        System.out.println("Задание 6");
-    }
-
-    public static void task7() {
-        System.out.println("Задание 7");
     }
 }
